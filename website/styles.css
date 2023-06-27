@@ -48,6 +48,7 @@ body {
     background-image: linear-gradient(-0.05turn, #a931ff 35%, #0f0070 99%);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 .gradient-1 {
