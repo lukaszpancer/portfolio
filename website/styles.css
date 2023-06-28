@@ -68,12 +68,29 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    min-width: 400px;
+    min-width: 30vw;
     align-items: auto;
     border-radius: 1rem;
     transition: margin 0.5s ease-in-out, --myColor1 1s ease-in, --myColor2 1s ease-in-out, --myColor3 1s ease-in, --myColor4 1s ease-in-out
 }
 
+@media screen and (min-width: 1001px) {
+    .img-container {
+        margin-left: 10vw;
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    .img-container {
+        margin-left: 0vw;
+    }
+
+    .jumbo-text {
+        margin: 0px;
+    }
+}
 
 .jumbo-container {
     padding: 2rem;
