@@ -68,17 +68,22 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    min-width: 30vw;
     align-items: auto;
     border-radius: 1rem;
     transition: margin 0.5s ease-in-out, --myColor1 1s ease-in, --myColor2 1s ease-in-out, --myColor3 1s ease-in, --myColor4 1s ease-in-out
 }
 
 @media screen and (min-width: 1001px) {
-    .img-container {
-        margin-left: 10vw;
+    .app {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
     }
 
+    .first-row {
+        margin-top: 10vh;
+    }
 
 }
 
@@ -90,6 +95,13 @@ body {
     .jumbo-text {
         margin: 0px;
     }
+
+    .app {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 .jumbo-container {
