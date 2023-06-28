@@ -74,7 +74,7 @@ body {
 }
 
 @media screen and (min-width: 1001px) {
-    .app {
+    #app {
         flex-grow: 1;
         display: flex;
         flex-direction: column;
@@ -96,7 +96,7 @@ body {
         margin: 0px;
     }
 
-    .app {
+    #app {
         flex-grow: 1;
         display: flex;
         flex-direction: column;
